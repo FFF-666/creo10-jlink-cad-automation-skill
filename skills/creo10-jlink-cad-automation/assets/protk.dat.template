@@ -1,0 +1,11 @@
+name <APP_NAME>
+startup java
+java_app_class <FULLY_QUALIFIED_ENTRY_CLASS>
+java_app_classpath <PROJECT_ROOT>\dist\<APP_JAR>.jar
+java_app_start start
+java_app_stop stop
+allow_stop true
+delay_start true
+text_dir <PROJECT_ROOT>\text
+end
+
