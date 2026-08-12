@@ -95,7 +95,7 @@ Java 可生成 DXF/STL，再由 J-Link `ImportNewModel` 导入新模型。中性
 
 ### DXF 参考曲线路线
 
-可评估 `IntfDXF_Create`、`ImportFeatAttr_Create`、`SetJoinSurfs(false)`、`SetMakeSolid(false)` 与 `CreateImportFeat`，并验证曲线、Z 平面和 XY 边界。本机存在相关 J-Link 示例，但这个调用组合尚未在“打印2”项目完整实跑，不能标为已验证原生 Sketch。
+可评估 `IntfDXF_Create`、`ImportFeatAttr_Create`、`SetJoinSurfs(false)`、`SetMakeSolid(false)` 与 `CreateImportFeat`，并验证曲线、Z 平面和 XY 边界。本机存在相关 J-Link 示例，但这个调用组合尚未在当前混合结构层模型中完整实跑，不能标为已验证原生 Sketch。
 
 ## 7. 最终验证门
 
@@ -143,4 +143,3 @@ TOTAL_MS=
 - 不把球体成功推断为复杂模型、孔、Pattern、UDF 或原生 Sketch 已通过。
 - 不反复冷启动等待 J-Link 上下文；一次受控重试后应停止并诊断。
 - 不默认使用鼠标坐标或屏幕识别。
-

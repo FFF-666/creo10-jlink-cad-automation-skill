@@ -3,7 +3,7 @@ name: creo10-jlink-cad-automation
 description: Safely inspect, automate, optimize, validate, and hand off Creo Parametric 10.0.0 CAD work with Java/J-Link, parameterized templates, DXF/STL neutral geometry, and controlled work copies. Use for Creo 10 or J-Link setup, protk.dat registration, Java CAD performance, model changes, microfluidic L1/L2 design, regeneration/readback checks, or deciding when GUI automation is permissible.
 ---
 
-# Creo 10 J-Link CAD Automation
+# AI-Assisted Creo 10 J-Link CAD Automation
 
 Apply this workflow to Creo Parametric 10.0.0 tasks.
 
@@ -37,7 +37,7 @@ Do not use mouse coordinates, screen recognition, or button-by-button automation
 - Do not invent PTC methods. Check the installed examples and APIWizard when uncertain.
 - Do not save after regeneration failure, failed features, invalid parameter readback, invalid geometry, or a unit mismatch.
 - Do not equate a visible model with success. Require evidence from Creo/J-Link and the filesystem.
-- Treat the current L2 printing model as unfinished until the user completes its internal details and a fresh validation passes.
+- Treat the current L2 mixing-structure model as unfinished until the user completes its internal details and a fresh validation passes.
 
 ## Execution loop
 
@@ -65,4 +65,3 @@ Mouse automation risks:
 ```
 
 Then wait for explicit authorization.
-
