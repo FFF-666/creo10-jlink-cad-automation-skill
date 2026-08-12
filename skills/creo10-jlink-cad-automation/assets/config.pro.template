@@ -1,0 +1,3 @@
+jlink_java_command <PROJECT_ROOT>\dist\<JLINK_LAUNCHER>.exe
+protkdat <PROJECT_ROOT>\deploy\protk.dat
+
