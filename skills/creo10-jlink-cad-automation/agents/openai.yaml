@@ -1,0 +1,5 @@
+interface:
+  display_name: "Creo 10 J-Link CAD Automation"
+  short_description: "Safely automate and validate Creo 10 CAD models"
+  default_prompt: "Use $creo10-jlink-cad-automation to plan, execute, and validate a safe Creo 10 J-Link CAD task."
+
