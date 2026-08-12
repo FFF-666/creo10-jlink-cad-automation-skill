@@ -1,0 +1,7 @@
+# Always choose a new model name and output directory.
+model.name=<UNIQUE_ASCII_MODEL_NAME>
+output.directory=<NEW_OUTPUT_DIR>
+protected.source.prt=<READ_ONLY_SOURCE_PRT>
+expected.source.sha256=<SOURCE_SHA256>
+export.preview=false
+
